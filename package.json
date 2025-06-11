@@ -1,0 +1,26 @@
+{
+  "name": "product-management-api",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/Malkishara/product-management-api#readme",
+  "bugs": {
+    "url": "https://github.com/Malkishara/product-management-api/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Malkishara/product-management-api.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "npm test"
+  },
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mongoose": "^8.15.1"
+  }
+}
